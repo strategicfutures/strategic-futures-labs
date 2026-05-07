@@ -1,4 +1,5 @@
 export default function App() {
+const briefingUrl = "https://gamma.app/docs/A-System-to-Improve-Decision-Quality-Before-Execution-6fpgn3bhrjyhszj"
   return (
     <div className="min-h-screen bg-[#05070B] text-white">
       
@@ -36,9 +37,12 @@ export default function App() {
           </p>
 
           <div className="flex gap-4">
-            <button className="bg-cyan-400 text-black px-6 py-3 rounded-xl font-medium hover:bg-cyan-300 transition">
+            <a
+              href="#briefing"
+              className="bg-cyan-400 text-black px-6 py-3 rounded-xl font-medium hover:bg-cyan-300 transition inline-block"
+            >
               Request Executive Briefing
-            </button>
+            </a>
 
             <button className="border border-white/20 px-6 py-3 rounded-xl hover:border-cyan-400 transition">
               Explore SIDS
@@ -102,7 +106,7 @@ export default function App() {
 
     <div className="grid md:grid-cols-3 gap-6">
       
-      <div className="bg-[#05070B] border border-white/10 rounded-2xl p-6">
+      <div className="bg-[#081120] border border-white/20 rounded-2xl p-6">
         <h3 className="text-xl font-medium mb-3">Weak Problem or Opportunity Validation</h3>
         <p className="text-gray-400 leading-relaxed">
           Initiatives move forward without clearly defined problems or opportunities,
@@ -110,7 +114,7 @@ export default function App() {
         </p>
       </div>
 
-      <div className="bg-[#05070B] border border-white/10 rounded-2xl p-6">
+      <div className="bg-[#081120] border border-white/20 rounded-2xl p-6">
         <h3 className="text-xl font-medium mb-3">Pressure To Move Fast</h3>
         <p className="text-gray-400 leading-relaxed">
           Organizations often prioritize speed over decision quality, advancing ideas
@@ -118,7 +122,7 @@ export default function App() {
         </p>
       </div>
 
-      <div className="bg-[#05070B] border border-white/10 rounded-2xl p-6">
+      <div className="bg-[#081120] border border-white/20 rounded-2xl p-6">
         <h3 className="text-xl font-medium mb-3">Governance Too Late</h3>
         <p className="text-gray-400 leading-relaxed">
           Governance is frequently applied after execution begins, when changing course
@@ -152,7 +156,7 @@ export default function App() {
 
     <div className="grid lg:grid-cols-2 gap-8">
 
-      <div className="bg-[#081120] border border-white/10 rounded-3xl p-8">
+      <div className="bg-[#081120] border border-white/20 rounded-3xl p-8">
         <p className="text-cyan-400 text-sm uppercase tracking-[0.2em] mb-4">
           What SIDS Does
         </p>
@@ -182,7 +186,7 @@ export default function App() {
         </ul>
       </div>
 
-      <div className="bg-[#081120] border border-white/10 rounded-3xl p-8">
+      <div className="bg-[#081120] border border-white/20 rounded-3xl p-8">
         <p className="text-cyan-400 text-sm uppercase tracking-[0.2em] mb-4">
           What SIDS Is Not
         </p>
@@ -436,7 +440,7 @@ export default function App() {
 
     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
-      <div className="bg-[#081120] border border-white/10 rounded-2xl p-6">
+      <div className="bg-[#081120] border border-white/20 rounded-2xl p-6">
         <h3 className="text-xl font-medium mb-4">
           Government Agencies
         </h3>
@@ -447,7 +451,7 @@ export default function App() {
         </p>
       </div>
 
-      <div className="bg-[#081120] border border-white/10 rounded-2xl p-6">
+      <div className="bg-[#081120] border border-white/20 rounded-2xl p-6">
         <h3 className="text-xl font-medium mb-4">
           Enterprise Transformation
         </h3>
@@ -458,7 +462,7 @@ export default function App() {
         </p>
       </div>
 
-      <div className="bg-[#081120] border border-white/10 rounded-2xl p-6">
+      <div className="bg-[#081120] border border-white/20 rounded-2xl p-6">
         <h3 className="text-xl font-medium mb-4">
           PMO & Governance Offices
         </h3>
@@ -469,7 +473,7 @@ export default function App() {
         </p>
       </div>
 
-      <div className="bg-[#081120] border border-white/10 rounded-2xl p-6">
+      <div className="bg-[#081120] border border-white/20 rounded-2xl p-6">
         <h3 className="text-xl font-medium mb-4">
           AI Governance Environments
         </h3>
@@ -637,15 +641,109 @@ export default function App() {
         complex transformation environments.
       </p>
 
-      <div className="flex flex-col sm:flex-row gap-4 justify-center">
+      <div className="max-w-2xl mx-auto bg-[#081120] border border-white/10 rounded-3xl p-10">
 
-        <button className="bg-cyan-400 text-black px-8 py-4 rounded-xl font-medium hover:bg-cyan-300 transition">
-          Request Executive Briefing
-        </button>
+        <form
+          action="https://formspree.io/f/xlgzwbrb"
+          method="POST"
+          className="space-y-6"
+        >
 
-        <button className="border border-white/20 px-8 py-4 rounded-xl hover:border-cyan-400 transition">
-          Contact Strategic Futures Labs
-        </button>
+          <div className="grid md:grid-cols-2 gap-6">
+
+            <div>
+              <label className="block text-sm text-gray-400 mb-2">
+                Name
+              </label>
+
+              <input
+                type="text"
+                name="name"
+                required
+                className="w-full bg-[#05070B] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-cyan-400"
+              />
+            </div>
+
+            <div>
+              <label className="block text-sm text-gray-400 mb-2">
+                Email
+              </label>
+
+              <input
+                type="email"
+                name="email"
+                required
+                className="w-full bg-[#05070B] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-cyan-400"
+              />
+            </div>
+
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+
+            <div>
+              <label className="block text-sm text-gray-400 mb-2">
+                Organization
+              </label>
+
+              <input
+                type="text"
+                name="organization"
+                className="w-full bg-[#05070B] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-cyan-400"
+              />
+            </div>
+
+            <div>
+              <label className="block text-sm text-gray-400 mb-2">
+                Role / Title
+              </label>
+
+              <input
+                type="text"
+                name="role"
+                className="w-full bg-[#05070B] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-cyan-400"
+              />
+            </div>
+
+          </div>
+
+          <div>
+            <label className="block text-sm text-gray-400 mb-2">
+              Area of Interest
+            </label>
+
+            <select
+              name="interest"
+              className="w-full bg-[#05070B] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-cyan-400"
+            >
+              <option>Executive Briefing</option>
+              <option>Pilot Opportunity</option>
+              <option>Strategic Partnership</option>
+              <option>Government Engagement</option>
+              <option>General Inquiry</option>
+            </select>
+          </div>
+
+          <div>
+            <label className="block text-sm text-gray-400 mb-2">
+              Message
+            </label>
+
+            <textarea
+              name="message"
+              rows="5"
+              className="w-full bg-[#05070B] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-cyan-400"
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            className="bg-cyan-400 text-black px-8 py-4 rounded-xl font-medium hover:bg-cyan-300 transition"
+          >
+            Contact Strategic Futures Labs
+          </button>
+
+        </form>
 
       </div>
 
@@ -653,11 +751,61 @@ export default function App() {
 
   </div>
 </section>
+{/* EXECUTIVE BRIEFING FORM */}
+<section id="briefing" className="bg-[#081120] border-t border-white/10">
+  <div className="max-w-7xl mx-auto px-8 py-24">
+
+    <div className="text-center max-w-3xl mx-auto mb-12">
+      <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">
+        Executive Briefing
+      </p>
+
+      <h2 className="text-4xl lg:text-5xl font-semibold leading-tight mb-6">
+        Request the SIDS executive briefing.
+      </h2>
+
+      <p className="text-lg text-gray-400 leading-relaxed">
+        Submit your information to receive access to the Strategic Initiatives
+        Decision System executive briefing.
+      </p>
+    </div>
+
+    <div className="max-w-2xl mx-auto bg-[#05070B] border border-white/10 rounded-3xl p-10">
+      <form
+        action="https://formspree.io/f/xbdwaode"
+        method="POST"
+        className="space-y-6"
+      >
+        <input type="hidden" name="_redirect" value={briefingUrl} />
+
+        <div className="grid md:grid-cols-2 gap-6">
+          <input name="name" required placeholder="Name" className="w-full bg-[#081120] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-cyan-400" />
+          <input type="email" name="email" required placeholder="Email" className="w-full bg-[#081120] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-cyan-400" />
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-6">
+          <input name="organization" placeholder="Organization" className="w-full bg-[#081120] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-cyan-400" />
+          <input name="role" placeholder="Role / Title" className="w-full bg-[#081120] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-cyan-400" />
+        </div>
+
+        <button
+          type="submit"
+          className="w-full bg-cyan-400 text-black px-8 py-4 rounded-xl font-medium hover:bg-cyan-300 transition"
+        >
+          Access Executive Briefing
+        </button>
+      </form>
+    </div>
+
+  </div>
+</section>
 {/* FOOTER */}
 <footer className="border-t border-white/10 bg-[#05070B]">
-  <div className="max-w-7xl mx-auto px-8 py-10 flex flex-col md:flex-row justify-between items-center gap-6">
+  <div className="max-w-7xl mx-auto px-8 py-10 flex flex-col md:flex-row justify-between items-start gap-10">
 
-    <div>
+    {/* LEFT */}
+    <div className="max-w-md">
+
       <h3 className="text-lg font-semibold">
         Strategic Futures Labs
       </h3>
@@ -665,24 +813,46 @@ export default function App() {
       <p className="text-sm text-gray-500 mt-2">
         Decision Intelligence • Governance • Future-Ready Transformation
       </p>
+
+      <p className="text-sm text-gray-500 mt-4 leading-relaxed">
+        Built from thought leadership and strategic insights through the{" "}
+
+        <a
+          href="https://strategicfutureshub.org"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-cyan-400 transition"
+        >
+          Strategic Futures Initiative
+        </a>.
+      </p>
+
     </div>
 
-    <div className="flex gap-6 text-sm text-gray-400">
-      <a href="#sids" className="hover:text-cyan-400 transition">
+    {/* RIGHT */}
+    <div className="flex flex-col gap-3 text-sm text-gray-400 md:text-right">
+
+      <a
+        href="#sids"
+        className="hover:text-cyan-400 transition"
+      >
         SIDS
       </a>
 
-      <a href="#workflow" className="hover:text-cyan-400 transition">
-        How It Works
-      </a>
-
-      <a href="#customers" className="hover:text-cyan-400 transition">
-        Customers
-      </a>
-
-      <a href="#about" className="hover:text-cyan-400 transition">
+      <a
+        href="#about"
+        className="hover:text-cyan-400 transition"
+      >
         About
       </a>
+
+      <a
+        href="mailto:contact@strategicfutureslabs.com"
+        className="hover:text-cyan-400 transition"
+      >
+        Email: contact@strategicfutureslabs.com
+      </a>
+
     </div>
 
   </div>
