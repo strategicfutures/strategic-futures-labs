@@ -1,16 +1,22 @@
+import logo from "./assets/sfl-logo.png"
 export default function App() {
-const briefingUrl = "https://gamma.app/docs/A-System-to-Improve-Decision-Quality-Before-Execution-6fpgn3bhrjyhszj"
+const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Initiative-Decision-System-dj848df0p951g4d"
   return (
-    <div className="min-h-screen bg-[#05070B] text-white">
+    <div
+      id="top"
+      className="min-h-screen bg-[#05070B] text-white overflow-x-hidden"
+    >
       
       {/* NAVBAR */}
-      <nav className="sticky top-0 z-50 backdrop-blur-md bg-[#05070B]/80 flex items-center justify-between px-8 py-6 border-b border-white/10">
-        <h1 className="text-xl font-semibold tracking-wide">
-          Strategic Futures Labs
-        </h1>
+      <nav className="backdrop-blur-md bg-[#05070B]/95 flex items-center justify-between px-6 md:px-8 py-4 border-b border-white/10">
+        <img
+          src={logo}
+          alt="Strategic Futures Labs"
+          className="h-12 md:h-16 w-auto"
+        />
 
-        <div className="flex gap-6 text-sm text-gray-300">
-          <a href="#sids">SIDS</a>
+        <div className="hidden md:flex gap-6 text-sm text-gray-300">
+          <a href="#SID system">SID System</a>
           <a href="#workflow">How It Works</a>
           <a href="#customers">Customers</a>
           <a href="#about">Why Us</a>
@@ -41,18 +47,22 @@ const briefingUrl = "https://gamma.app/docs/A-System-to-Improve-Decision-Quality
               href="#briefing"
               className="bg-cyan-400 text-black px-6 py-3 rounded-xl font-medium hover:bg-cyan-300 transition inline-block"
             >
-              Request Executive Briefing
+              Request Executive Summary
             </a>
-
-            <button className="border border-white/20 px-6 py-3 rounded-xl hover:border-cyan-400 transition">
-              Explore SIDS
-            </button>
+            <a
+              href="#contact"
+              className="border border-white/20 px-6 py-3 rounded-xl hover:border-cyan-400 transition">
+            
+              Request Demo
+            </a>
           </div>
         </div>
 
         {/* RIGHT VISUAL */}
         <div className="bg-[#081120] border border-white/10 rounded-3xl p-10 shadow-2xl">
-          
+          <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-6 text-center">
+          Decision Intelligence
+          </p>
           <div className="flex justify-between text-sm text-gray-400 mb-8">
             <span>DISCOVER</span>
             <span>EXPLORE</span>
@@ -62,21 +72,21 @@ const briefingUrl = "https://gamma.app/docs/A-System-to-Improve-Decision-Quality
 
           <div className="h-2 bg-gradient-to-r from-green-500 via-yellow-500 to-red-500 rounded-full mb-12"></div>
 
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             
             <div className="bg-[#0E1726] p-5 rounded-2xl border border-green-500/20">
               <p className="text-green-400 text-sm mb-2">ADVANCE</p>
-              <h3 className="text-lg font-medium">Validated</h3>
+              <h3 className="text-base sm:text-lg font-medium break-words">Validated</h3>
             </div>
 
             <div className="bg-[#0E1726] p-5 rounded-2xl border border-yellow-500/20">
               <p className="text-yellow-400 text-sm mb-2">REFINE</p>
-              <h3 className="text-lg font-medium">Needs Alignment</h3>
+              <h3 className="text-base sm:text-lg font-medium break-words">Needs Alignment</h3>
             </div>
 
             <div className="bg-[#0E1726] p-5 rounded-2xl border border-red-500/20">
               <p className="text-red-400 text-sm mb-2">FAIL FAST</p>
-              <h3 className="text-lg font-medium">High Risk</h3>
+              <h3 className="text-base sm:text-lg font-medium break-words">High Risk</h3>
             </div>
 
           </div>
@@ -133,13 +143,13 @@ const briefingUrl = "https://gamma.app/docs/A-System-to-Improve-Decision-Quality
     </div>
   </div>
 </section>
-{/* SIDS SECTION */}
-<section id="sids" className="border-t border-white/10 bg-[#081120]">
+{/* SID System SECTION */}
+<section id="SID system" className="border-t border-white/10 bg-[#081120]">
   <div className="max-w-7xl mx-auto px-8 py-24">
 
     <div className="max-w-3xl mb-16">
       <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">
-        Introducing SIDS
+        Introducing The SID System
       </p>
 
       <h2 className="text-4xl lg:text-5xl font-semibold leading-tight mb-6">
@@ -147,7 +157,7 @@ const briefingUrl = "https://gamma.app/docs/A-System-to-Improve-Decision-Quality
       </h2>
 
       <p className="text-lg text-gray-400 leading-relaxed">
-        The Strategic Initiatives Decision System (SIDS) is an AI-assisted,
+        The Strategic Initiatives Decision (SID) System is an AI-assisted,
         stage-gated decision system designed to improve decision quality before
         organizations commit substantial time, capital, workforce capacity,
         and operational focus to strategic initiatives.
@@ -158,7 +168,7 @@ const briefingUrl = "https://gamma.app/docs/A-System-to-Improve-Decision-Quality
 
       <div className="bg-[#081120] border border-white/20 rounded-3xl p-8">
         <p className="text-cyan-400 text-sm uppercase tracking-[0.2em] mb-4">
-          What SIDS Does
+          What The SID System Does
         </p>
 
         <ul className="space-y-4 text-gray-300 leading-relaxed">
@@ -188,7 +198,7 @@ const briefingUrl = "https://gamma.app/docs/A-System-to-Improve-Decision-Quality
 
       <div className="bg-[#081120] border border-white/20 rounded-3xl p-8">
         <p className="text-cyan-400 text-sm uppercase tracking-[0.2em] mb-4">
-          What SIDS Is Not
+          What The SID System Is Not
         </p>
 
         <ul className="space-y-4 text-gray-300 leading-relaxed">
@@ -217,13 +227,13 @@ const briefingUrl = "https://gamma.app/docs/A-System-to-Improve-Decision-Quality
     </div>
   </div>
 </section>
-{/* HOW SIDS WORKS */}
+{/* HOW The SID System WORKS */}
 <section id="workflow" className="border-t border-white/10 bg-[#081120]">
   <div className="max-w-7xl mx-auto px-8 py-24">
 
     <div className="max-w-3xl mb-20">
       <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">
-        How SIDS Works
+        How It Works
       </p>
 
       <h2 className="text-4xl lg:text-5xl font-semibold leading-tight mb-6">
@@ -231,7 +241,7 @@ const briefingUrl = "https://gamma.app/docs/A-System-to-Improve-Decision-Quality
       </h2>
 
       <p className="text-lg text-gray-400 leading-relaxed">
-        SIDS applies AI-assisted analysis, structured governance,
+        The SID System applies AI-assisted analysis, structured governance,
         and stage-gated evaluation to help organizations improve
         strategic decision quality before initiatives advance.
       </p>
@@ -239,7 +249,7 @@ const briefingUrl = "https://gamma.app/docs/A-System-to-Improve-Decision-Quality
 {/* WORKFLOW */}
 <div className="bg-[#05070B] border border-white/10 rounded-3xl p-10">
 
-  <div className="grid lg:grid-cols-[1.4fr_.45fr_1.4fr_.45fr_1.4fr_.45fr_1.4fr] gap-4 items-center">
+  <div className="grid grid-cols-1 lg:grid-cols-[1.4fr_.45fr_1.4fr_.45fr_1.4fr_.45fr_1.4fr] gap-4 items-center">
 
     {/* DISCOVER */}
     <div className="bg-[#0E1726] border border-white/10 rounded-2xl p-6 h-full">
@@ -257,7 +267,7 @@ const briefingUrl = "https://gamma.app/docs/A-System-to-Improve-Decision-Quality
 
     {/* GATE */}
     <div className="flex flex-col items-center justify-center text-center">
-      <div className="h-px w-full bg-white/20 mb-4"></div>
+      <div className="hidden lg:block h-px w-full bg-white/20 mb-4"></div>
 
       <p className="text-xs uppercase tracking-[0.2em] text-cyan-400 mb-3">
         Stage Gate
@@ -287,7 +297,7 @@ const briefingUrl = "https://gamma.app/docs/A-System-to-Improve-Decision-Quality
 
     {/* GATE */}
     <div className="flex flex-col items-center justify-center text-center">
-      <div className="h-px w-full bg-white/20 mb-4"></div>
+      <div className="hidden lg:block h-px w-full bg-white/20 mb-4"></div>
 
       <p className="text-xs uppercase tracking-[0.2em] text-cyan-400 mb-3">
         Stage Gate
@@ -317,7 +327,7 @@ const briefingUrl = "https://gamma.app/docs/A-System-to-Improve-Decision-Quality
 
     {/* GATE */}
     <div className="flex flex-col items-center justify-center text-center">
-      <div className="h-px w-full bg-white/20 mb-4"></div>
+      <div className="hidden lg:block h-px w-full bg-white/20 mb-4"></div>
 
       <p className="text-xs uppercase tracking-[0.2em] text-cyan-400 mb-3">
         Stage Gate
@@ -573,7 +583,16 @@ const briefingUrl = "https://gamma.app/docs/A-System-to-Improve-Decision-Quality
               decision systems architect with more than 20 years of
               experience leading enterprise transformation, governance,
               operational modernization, and high-consequence strategic
-              initiatives supporting national-scale missions.
+              initiatives supporting national-scale missions.{" "}
+            
+              <a
+                href="https://www.linkedin.com/in/kennydanderson"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block text-cyan-400 hover:text-cyan-300 transition"
+              >
+                LinkedIn Profile ↗
+              </a>
             </p>
           </div>
 
@@ -716,6 +735,7 @@ const briefingUrl = "https://gamma.app/docs/A-System-to-Improve-Decision-Quality
               name="interest"
               className="w-full bg-[#05070B] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-cyan-400"
             >
+              <option>Demonstration</option>
               <option>Executive Briefing</option>
               <option>Pilot Opportunity</option>
               <option>Strategic Partnership</option>
@@ -740,7 +760,7 @@ const briefingUrl = "https://gamma.app/docs/A-System-to-Improve-Decision-Quality
             type="submit"
             className="bg-cyan-400 text-black px-8 py-4 rounded-xl font-medium hover:bg-cyan-300 transition"
           >
-            Contact Strategic Futures Labs
+            Submit Inquiry
           </button>
 
         </form>
@@ -757,16 +777,16 @@ const briefingUrl = "https://gamma.app/docs/A-System-to-Improve-Decision-Quality
 
     <div className="text-center max-w-3xl mx-auto mb-12">
       <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">
-        Executive Briefing
+        Executive Summary
       </p>
 
       <h2 className="text-4xl lg:text-5xl font-semibold leading-tight mb-6">
-        Request the SIDS executive briefing.
+        Request the SID system executive summary.
       </h2>
 
       <p className="text-lg text-gray-400 leading-relaxed">
         Submit your information to receive access to the Strategic Initiatives
-        Decision System executive briefing.
+        Decision System executive summary.
       </p>
     </div>
 
@@ -792,13 +812,21 @@ const briefingUrl = "https://gamma.app/docs/A-System-to-Improve-Decision-Quality
           type="submit"
           className="w-full bg-cyan-400 text-black px-8 py-4 rounded-xl font-medium hover:bg-cyan-300 transition"
         >
-          Access Executive Briefing
+          Request Access
         </button>
       </form>
     </div>
 
   </div>
 </section>
+{/* RETURN TO TOP */}
+<a
+  href="#top"
+  className="fixed bottom-6 right-6 z-50 bg-cyan-400 text-black w-12 h-12 rounded-full flex items-center justify-center text-2xl font-semibold shadow-lg hover:bg-cyan-300 transition"
+  aria-label="Return to top"
+>
+  ↑
+</a>
 {/* FOOTER */}
 <footer className="border-t border-white/10 bg-[#05070B]">
   <div className="max-w-7xl mx-auto px-8 py-10 flex flex-col md:flex-row justify-between items-start gap-10">
@@ -833,10 +861,10 @@ const briefingUrl = "https://gamma.app/docs/A-System-to-Improve-Decision-Quality
     <div className="flex flex-col gap-3 text-sm text-gray-400 md:text-right">
 
       <a
-        href="#sids"
+        href="#SID system"
         className="hover:text-cyan-400 transition"
       >
-        SIDS
+        SID System
       </a>
 
       <a
