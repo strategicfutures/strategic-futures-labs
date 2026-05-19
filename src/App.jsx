@@ -44,7 +44,7 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
           <p className="text-xl text-gray-400 leading-relaxed mb-10 max-w-3xl mx-auto text-center">
             Strategic Futures Labs builds intelligent decision systems that help organizations form, evaluate, and govern strategic initiatives{" "}
             <span className="font-semibold text-white">before</span>{" "}
-            major resources are committed.
+            commitment.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -150,9 +150,12 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
       </h2>
 
       <p className="text-lg text-gray-400 leading-relaxed">
-        Most organizations have systems for managing projects after they are funded.
-        Far fewer have structured systems for deciding which initiatives should advance
-        before time, capital, workforce capacity, and executive attention are committed.
+        Most organizations have good systems in place to execute initiatives.
+        Far fewer have structured systems for determining which initiatives to execute—before time, capital, workforce capacity, and executive attention are committed.     
+      </p>
+      
+      <p className="text-lg text-gray-400 leading-relaxed mt-4">
+        Once weak initiatives gain momentum, they become increasingly difficult to stop.     
       </p>
     </div>
 
@@ -195,14 +198,13 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
       </p>
 
       <h2 className="text-4xl lg:text-5xl font-semibold leading-tight mb-6">
-        Structured decision governance before execution begins.
+        Intelligent evaluation at the point of greatest impact.
       </h2>
 
       <p className="text-lg text-gray-400 leading-relaxed">
-        The Strategic Initiatives Decision (SID) System is an AI-assisted,
-        stage-gated decision system designed to improve decision quality before
+        The Strategic Initiative Decision (SID) System brings consistency, evidence, and analytical rigor to the evaluation of strategic initiatives before
         organizations commit substantial time, capital, workforce capacity,
-        and operational focus to strategic initiatives.
+        and operational focus.
       </p>
     </div>
 
@@ -287,7 +289,7 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
         and decision gate checkpoints to help organizations form, evaluate,
         and govern strategic initiatives.
       </p>
-      <p className="text-lg text-gray-400 leading-relaxed">
+      <p className="text-lg text-gray-400 leading-relaxed mt-4">
         Weak initiatives are{" "}
         <span className="text-400 font-semibold">
           stopped
@@ -487,11 +489,12 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
   <div className="max-w-7xl mx-auto px-8 py-24">
 
     <div className="text-center mb-16">
-
-
+      <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">
+        Strategic Risk Case Studies
+      </p>
 
       <h2 className="text-3xl lg:text-4xl font-semibold leading-tight max-w-4xl mx-auto">
-        Designed to help prevent high-stakes failures.
+        A system designed to help prevent high-stakes failures.
       </h2>
 
     </div>
