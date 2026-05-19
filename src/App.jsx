@@ -25,24 +25,29 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
       </nav>
 
       {/* HERO */}
-      <section className="max-w-7xl mx-auto px-8 py-28 grid lg:grid-cols-2 gap-20 items-center">
+      <section className="max-w-5xl mx-auto text-center">
         
         <div>
-          <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-6">
-            Decision Intelligence for Strategic Transformation
+          <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-10 mt-6">
+            Elevate Your Transformation Strategy With
           </p>
 
           <h1 className="text-5xl lg:text-7xl font-semibold leading-tight mb-8">
-            AI-Assisted Governance for Complex Strategic Initiatives
+            <p className="text-5xl lg:text-7xl font-semibold leading-tight mb-8"> 
+              Built-In Decision Intelligence.
+            </p>
+            <p className="text-5xl lg:text-7xl font-semibold leading-tight mb-8"> 
+              Better Strategic Outcomes.
+            </p>
           </h1>
 
-          <p className="text-xl text-gray-400 leading-relaxed mb-10 max-w-2xl">
-            Strategic Futures Labs builds intelligent decision and governance
-            systems that help organizations evaluate strategic initiatives
-            before major resources are committed.
+          <p className="text-xl text-gray-400 leading-relaxed mb-10 max-w-3xl mx-auto text-center">
+            Strategic Futures Labs builds intelligent decision systems that help organizations form, evaluate, and govern strategic initiatives{" "}
+            <span className="font-semibold text-white">before</span>{" "}
+            major resources are committed.
           </p>
 
-          <div className="flex gap-4">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#briefing"
               className="bg-cyan-400 text-black px-6 py-3 rounded-xl font-medium hover:bg-cyan-300 transition inline-block"
@@ -58,35 +63,72 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
           </div>
         </div>
 
-        {/* RIGHT VISUAL */}
-        <div className="bg-[#081120] border border-white/10 rounded-3xl p-10 shadow-2xl">
-          <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-6 text-center">
-          Decision Intelligence
-          </p>
-          <div className="flex justify-between text-sm text-gray-400 mb-8">
-            <span>DISCOVER</span>
-            <span>EXPLORE</span>
-            <span>DEVELOP</span>
-            <span>EXECUTE</span>
-          </div>
+{/* DECISION QUALITY SECTION */}
+<div className="bg-[#081120] border border-white/20 rounded-3xl p-10 mt-20">
 
-          <div className="h-2 bg-gradient-to-r from-green-500 via-yellow-500 to-red-500 rounded-full mb-12"></div>
+  <div className="text-center mb-12">
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            
-            <div className="bg-[#0E1726] p-5 rounded-2xl border border-green-500/20">
-              <p className="text-green-400 text-sm mb-2">ADVANCE</p>
-              <h3 className="text-base sm:text-lg font-medium break-words">Validated</h3>
+    <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">
+      Why an Intelligent Structure Matters
+    </p>
+
+    <h2 className="text-3xl lg:text-4xl font-semibold leading-tight">
+      Weak initiatives create costly downstream consequences.
+    </h2>
+
+  </div>
+
+  <div className="grid md:grid-cols-3 gap-6">
+
+            {/* CARD 1 */}
+            <div className="bg-[#0E1726] border border-amber-500/20 rounded-3xl p-8">
+
+              <p className="text-5xl font-semibold text-cyan-400 mb-4">
+                70%
+              </p>
+
+              <p className="text-lg text-white leading-relaxed">
+                of strategic initiatives fail to achieve intended outcomes or expected value.
+              </p>
+
+              <p className="text-sm text-gray-500 mt-4">
+                Source: McKinsey & Company
+              </p>
+
             </div>
 
-            <div className="bg-[#0E1726] p-5 rounded-2xl border border-yellow-500/20">
-              <p className="text-yellow-400 text-sm mb-2">REFINE</p>
-              <h3 className="text-base sm:text-lg font-medium break-words">Needs Alignment</h3>
+            {/* CARD 2 */}
+            <div className="bg-[#0E1726] border border-amber-500/20 rounded-3xl p-8">
+
+              <p className="text-5xl font-semibold text-cyan-400 mb-4">
+                $2T
+              </p>
+
+              <p className="text-lg text-white leading-relaxed">
+                estimated annual cost of failed transformation efforts globally.
+              </p>
+
+              <p className="text-sm text-gray-500 mt-4">
+                Source: Forbes / McKinsey synthesis
+              </p>
+
             </div>
 
-            <div className="bg-[#0E1726] p-5 rounded-2xl border border-red-500/20">
-              <p className="text-red-400 text-sm mb-2">FAIL FAST</p>
-              <h3 className="text-base sm:text-lg font-medium break-words">High Risk</h3>
+            {/* CARD 3 */}
+            <div className="bg-[#0E1726] border border-amber-500/20 rounded-3xl p-8">
+
+              <p className="text-5xl font-semibold text-cyan-400 mb-4">
+                43%
+              </p>
+
+              <p className="text-lg text-white leading-relaxed">
+                of transformation leaders identified weak problem definition as the most common point of initiative breakdown.
+              </p>
+
+              <p className="text-sm text-gray-500 mt-4">
+                Source: Strategic Futures Initiative Poll
+              </p>
+
             </div>
 
           </div>
@@ -237,14 +279,25 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
       </p>
 
       <h2 className="text-4xl lg:text-5xl font-semibold leading-tight mb-6">
-        Structured evaluation before execution.
+        Structured formation and evaluation before execution.
       </h2>
 
       <p className="text-lg text-gray-400 leading-relaxed">
         The SID System applies AI-assisted analysis, structured governance,
-        and stage-gated evaluation to help organizations improve
-        strategic decision quality before initiatives advance.
+        and decision gate checkpoints to help organizations form, evaluate,
+        and govern strategic initiatives.
       </p>
+      <p className="text-lg text-gray-400 leading-relaxed">
+        Weak initiatives are{" "}
+        <span className="text-400 font-semibold">
+          stopped
+        </span>.
+        {" "}Strong initiatives{" "}
+        <span className="text-400 font-semibold">
+          advance
+        </span>.
+      </p>
+
     </div>
 {/* WORKFLOW */}
 <div className="bg-[#05070B] border border-white/10 rounded-3xl p-10">
@@ -427,6 +480,129 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
       </div>
     </div>
 </div>
+
+</section>
+{/* CASE STUDY SECTION */}
+<section className="border-t border-white/10 bg-[#05070B]">
+  <div className="max-w-7xl mx-auto px-8 py-24">
+
+    <div className="text-center mb-16">
+
+
+
+      <h2 className="text-3xl lg:text-4xl font-semibold leading-tight max-w-4xl mx-auto">
+        Designed to help prevent high-stakes failures.
+      </h2>
+
+    </div>
+
+    <div className="grid lg:grid-cols-2 gap-8">
+
+      {/* CARD 1 */}
+      <div className="bg-[#081120] border border-white/10 rounded-3xl p-10">
+
+        <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-6">
+          Case Study: Hertz Transformation
+        </p>
+
+        <div className="space-y-8">
+
+          <div>
+            <h3 className="text-xl font-semibold mb-3">
+              What Happened
+            </h3>
+
+            <p className="text-gray-400 leading-relaxed">
+              Large-scale modernization efforts advanced amid operational,
+              governance, and implementation readiness challenges.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold mb-3">
+              What It Exposed
+            </h3>
+
+            <ul className="text-gray-400 space-y-2">
+              <li>• Organizational readiness gaps</li>
+              <li>• Operational continuity risk</li>
+              <li>• Execution sequencing concerns</li>
+              <li>• Governance and escalation limitations</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold mb-3">
+              What the SID System Is Designed to Evaluate
+            </h3>
+
+            <ul className="text-gray-400 space-y-2">
+              <li>• Transformation readiness</li>
+              <li>• Strategic alignment</li>
+              <li>• Operational risk exposure</li>
+              <li>• Stakeholder impact</li>
+              <li>• Decision confidence</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+      {/* CARD 2 */}
+      <div className="bg-[#081120] border border-white/10 rounded-3xl p-10">
+
+        <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-6">
+          Case Study: CNN+ Launch
+        </p>
+
+        <div className="space-y-8">
+
+          <div>
+            <h3 className="text-xl font-semibold mb-3">
+              What Happened
+            </h3>
+
+            <p className="text-gray-400 leading-relaxed">
+              Significant investment proceeded despite broader uncertainty
+              around demand validation and long-term strategic viability.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold mb-3">
+              What It Exposed
+            </h3>
+
+            <ul className="text-gray-400 space-y-2">
+              <li>• Weak demand validation</li>
+              <li>• Strategic alignment concerns</li>
+              <li>• Market timing risk</li>
+              <li>• Investment readiness gaps</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold mb-3">
+              What the SID System Is Designed to Evaluate
+            </h3>
+
+            <ul className="text-gray-400 space-y-2">
+              <li>• Demand environment validation</li>
+              <li>• Strategic differentiation</li>
+              <li>• Stakeholder alignment</li>
+              <li>• Investment viability</li>
+              <li>• Expected value realization</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
 </section>
 {/* WHO IT'S BUILT FOR */}
 <section id="customers" className="border-t border-white/10 bg-[#081120]">
@@ -573,17 +749,15 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
 
             <p className="text-gray-400 leading-relaxed">
               Strategic Futures Labs is grounded in practitioner-level
-              experience supporting complex transformation, governance,
-              and strategic investment environments across federal and
-              commercial sectors.
+              experience.
             </p>
 
             <p className="text-gray-400 leading-relaxed mt-4">
-              Founder Ken Anderson is a strategic program leader and
-              decision systems architect with more than 20 years of
-              experience leading enterprise transformation, governance,
-              operational modernization, and high-consequence strategic
-              initiatives supporting national-scale missions.{" "}
+              Founder Ken Anderson has more than 20 years of experience leading enterprise transformation, governance, operational modernization, and high-consequence initiatives supporting national-scale missions. Throughout his career, Ken observed organizations repeatedly commit significant resources to initiatives that lacked the strategic readiness to succeed.
+
+              He made it his mission to build a system that mitigates risk through structured decision discipline applied to initiative formation, evaluation, and execution.
+
+              The result is the SID System.{" "}
             
               <a
                 href="https://www.linkedin.com/in/kennydanderson"
