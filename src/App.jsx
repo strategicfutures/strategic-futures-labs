@@ -235,6 +235,10 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
           </li>
 
           <li>
+            • Prepares validated initiatives for internal delivery, acquisition planning, or hybrid execution pathways
+          </li>
+
+          <li>
             • Improves strategic clarity, readiness, and decision confidence
           </li>
         </ul>
@@ -276,56 +280,51 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
   <div className="max-w-7xl mx-auto px-8 py-24">
 
     <div className="max-w-3xl mb-20">
-      <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">
-        How It Works
-      </p>
-
+      <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">HOW IT WORKS</p>
       <h2 className="text-4xl lg:text-5xl font-semibold leading-tight mb-6">
-        Structured formation and evaluation before execution.
+        From idea to a decision-ready path forward.
       </h2>
-
       <p className="text-lg text-gray-400 leading-relaxed">
-        The SID System applies AI-assisted analysis, structured governance,
-        and decision gate checkpoints to help organizations form, evaluate,
-        and govern strategic initiatives.
+        SID starts with a Big Idea. It guides strategic initiatives through a structured progression of Discover, Explore, and Develop using AI-assisted analysis, evidence, human judgment and governance, and decision gates at each stage.
       </p>
       <p className="text-lg text-gray-400 leading-relaxed mt-4">
-        Weak initiatives are{" "}
-        <span className="text-400 font-semibold">
-          stopped
-        </span>.
-        {" "}Strong initiatives{" "}
-        <span className="text-400 font-semibold">
-          advance
-        </span>.
+        Decision gate scoring determines if the initiative should{" "}
+        <span className="text-green-400">Advance</span> (Proceed with Confidence), be{" "}
+        <span className="text-yellow-400">Refined</span> (Improve before Advancing) or{" "}
+        <span className="text-red-400">Fail Fast</span> (Avoid Costly Misalignment).
       </p>
 
     </div>
 {/* WORKFLOW */}
-<div className="bg-[#05070B] border border-white/10 rounded-3xl p-10">
+<div className="bg-[#05070B] border border-white/10 rounded-3xl p-4 sm:p-6 lg:p-10">
 
-  <div className="grid grid-cols-1 lg:grid-cols-[1.4fr_.45fr_1.4fr_.45fr_1.4fr_.45fr_1.4fr] gap-4 items-center">
+  <div className="border border-white/10 rounded-3xl p-4 sm:p-6">
+    <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-8">
+      SID System Progression
+    </p>
 
+  <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_4rem_minmax(0,1fr)_4rem_minmax(0,1fr)] gap-4 items-center relative isolate">
     {/* DISCOVER */}
-    <div className="bg-[#0E1726] border border-white/10 rounded-2xl p-6 h-full">
-      <p className="text-cyan-400 text-sm mb-3">DISCOVER</p>
+    <div className="relative z-20 bg-[#0E1726] border-2 border-cyan-400/40 rounded-2xl p-6 h-full">
+      <p className="text-cyan-400 text-sm font-semibold mb-3">DISCOVER</p>
 
       <h3 className="text-xl font-medium mb-4">
-        Define The Initiative
+        Is this worth exploring?
       </h3>
 
       <p className="text-gray-400 leading-relaxed text-sm">
-        Transform loosely defined ideas into structured
-        problem or opportunity statements.
+        Clarify the idea, problem, or opportunity and determine whether it warrants further evaluation.
       </p>
     </div>
 
     {/* GATE */}
-    <div className="flex flex-col items-center justify-center text-center">
-      <div className="hidden lg:block h-px w-full bg-white/20 mb-4"></div>
+    <div className="relative z-10 flex flex-col items-center justify-center text-center lg:self-stretch">
+      <div aria-hidden="true" className="h-6 w-px bg-white/20 mb-4 lg:hidden"></div>
+
+      <div className="relative flex flex-col items-center lg:bg-[#05070B]">
 
       <p className="text-xs uppercase tracking-[0.2em] text-cyan-400 mb-3">
-        Stage Gate
+        Decision Gate
       </p>
 
       <div className="flex gap-2">
@@ -334,28 +333,32 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
         <div className="w-3 h-3 rounded-full bg-red-500"></div>
       </div>
 
-      <div className="h-px w-full bg-white/20 mt-4"></div>
+      </div>
+
+      <span role="img" aria-label="Stage Gate decision" className="relative text-green-400 text-2xl leading-none mt-4">?</span>
     </div>
 
     {/* EXPLORE */}
-    <div className="bg-[#0E1726] border border-white/10 rounded-2xl p-6 h-full">
-      <p className="text-cyan-400 text-sm mb-3">EXPLORE</p>
+    <div className="relative z-20 bg-[#0E1726] border-2 border-cyan-400/40 rounded-2xl p-6 h-full">
+      <p className="text-cyan-400 text-sm font-semibold mb-3">EXPLORE</p>
 
       <h3 className="text-xl font-medium mb-4">
-        Evaluate Strategic Viability
+        Should we pursue it?
       </h3>
 
       <p className="text-gray-400 leading-relaxed text-sm">
-        Apply structured evaluation and readiness analysis.
+        Evaluate the need, potential value, evidence, and organizational readiness to determine whether the initiative should move forward.
       </p>
     </div>
 
     {/* GATE */}
-    <div className="flex flex-col items-center justify-center text-center">
-      <div className="hidden lg:block h-px w-full bg-white/20 mb-4"></div>
+    <div className="relative z-10 flex flex-col items-center justify-center text-center lg:self-stretch">
+      <div aria-hidden="true" className="h-6 w-px bg-white/20 mb-4 lg:hidden"></div>
+
+      <div className="relative flex flex-col items-center lg:bg-[#05070B]">
 
       <p className="text-xs uppercase tracking-[0.2em] text-cyan-400 mb-3">
-        Stage Gate
+        Decision Gate
       </p>
 
       <div className="flex gap-2">
@@ -364,122 +367,103 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
         <div className="w-3 h-3 rounded-full bg-red-500"></div>
       </div>
 
-      <div className="h-px w-full bg-white/20 mt-4"></div>
+      </div>
+
+      <span role="img" aria-label="Stage Gate decision" className="relative text-green-400 text-2xl leading-none mt-4">?</span>
     </div>
 
     {/* DEVELOP */}
-    <div className="bg-[#0E1726] border border-white/10 rounded-2xl p-6 h-full">
-      <p className="text-cyan-400 text-sm mb-3">DEVELOP</p>
+    <div className="relative z-20 bg-[#0E1726] border-2 border-cyan-400/40 rounded-2xl p-6 h-full">
+      <p className="text-cyan-400 text-sm font-semibold mb-3">DEVELOP</p>
 
       <h3 className="text-xl font-medium mb-4">
-        Build Execution Pathways
+        How should we move forward?
       </h3>
 
       <p className="text-gray-400 leading-relaxed text-sm">
-        Establish implementation approaches and governance controls.
-      </p>
-    </div>
-
-    {/* GATE */}
-    <div className="flex flex-col items-center justify-center text-center">
-      <div className="hidden lg:block h-px w-full bg-white/20 mb-4"></div>
-
-      <p className="text-xs uppercase tracking-[0.2em] text-cyan-400 mb-3">
-        Stage Gate
-      </p>
-
-      <div className="flex gap-2">
-        <div className="w-3 h-3 rounded-full bg-green-500"></div>
-        <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-        <div className="w-3 h-3 rounded-full bg-red-500"></div>
-      </div>
-
-      <div className="h-px w-full bg-white/20 mt-4"></div>
-    </div>
-
-    {/* EXECUTE */}
-    <div className="bg-[#0E1726] border border-white/10 rounded-2xl p-6 h-full">
-      <p className="text-cyan-400 text-sm mb-3">EXECUTE</p>
-
-      <h3 className="text-xl font-medium mb-4">
-        Govern Delivery & Outcomes
-      </h3>
-
-      <p className="text-gray-400 leading-relaxed text-sm">
-        Support disciplined execution and measurable outcomes.
+        Determine the approach, validate it when needed, and prepare the initiative for internal delivery, acquisition, or a hybrid path.
       </p>
     </div>
 
   </div>
 
-      {/* STAGE GATE DECISION LAYER */}
-      <div className="mt-16">
+    {/* DEVELOP OUTPUTS AND DELIVERY PATHWAYS */}
+    <div aria-hidden="true" className="h-8 w-px bg-white/20 mx-auto lg:hidden"></div>
+    <div aria-hidden="true" className="hidden lg:grid lg:grid-cols-[minmax(0,1fr)_4rem_minmax(0,1fr)_4rem_minmax(0,1fr)] gap-x-4">
+      <div className="col-start-5 h-6 w-px bg-white/20 justify-self-center"></div>
+      <div className="col-span-5 h-6 border-t border-l border-white/20 ml-[50%] mr-[calc((100%-12rem)/6)]"></div>
+    </div>
 
-        <div className="flex items-center justify-center mb-6">
-          <div className="h-px bg-white/20 w-full"></div>
+    <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm text-center mb-6">
+      Delivery Path Determination
+    </p>
 
-          <p className="px-6 text-sm uppercase tracking-[0.2em] text-cyan-400 whitespace-nowrap">
-            Stage Gate Decision
-          </p>
-
-          <div className="h-px bg-white/20 w-full"></div>
-        </div>
-
-        <div className="bg-[#081120] border border-white/10 rounded-3xl p-8">
-
-          <div className="grid md:grid-cols-3 gap-6">
-
-            <div className="bg-[#0E1726] border border-green-500/20 rounded-2xl p-6">
-              <p className="text-green-400 text-sm mb-3">
-                ADVANCE
-              </p>
-
-              <h3 className="text-xl font-medium mb-4">
-                Proceed With Confidence
-              </h3>
-
-              <p className="text-gray-400 leading-relaxed text-sm">
-                Evidence, alignment, readiness, and strategic
-                value support advancement to the next stage.
-              </p>
-            </div>
-
-            <div className="bg-[#0E1726] border border-yellow-500/20 rounded-2xl p-6">
-              <p className="text-yellow-400 text-sm mb-3">
-                REFINE
-              </p>
-
-              <h3 className="text-xl font-medium mb-4">
-                Improve Before Advancing
-              </h3>
-
-              <p className="text-gray-400 leading-relaxed text-sm">
-                Additional clarification, evidence, or alignment
-                is required before further investment occurs.
-              </p>
-            </div>
-
-            <div className="bg-[#0E1726] border border-red-500/20 rounded-2xl p-6">
-              <p className="text-red-400 text-sm mb-3">
-                FAIL FAST
-              </p>
-
-              <h3 className="text-xl font-medium mb-4">
-                Avoid Costly Misalignment
-              </h3>
-
-              <p className="text-gray-400 leading-relaxed text-sm">
-                Structured evaluation identifies initiatives that
-                should not advance before significant resources
-                are committed.
-              </p>
-            </div>
-
-          </div>
-
-        </div>
-
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+      <div className="min-w-0 bg-[#081120] border border-white/10 rounded-2xl p-4 text-center">
+        <p className="text-cyan-400 text-sm mb-3">INTERNAL DELIVERY</p>
+        <p className="text-sm text-gray-400 leading-relaxed">The organization uses its own capabilities and resources to deliver the initiative.</p>
       </div>
+      <div className="min-w-0 bg-[#081120] border border-white/10 rounded-2xl p-4 text-center">
+        <p className="text-cyan-400 text-sm mb-3">ACQUISITION PLANNING</p>
+        <p className="text-sm text-gray-400 leading-relaxed">The initiative is prepared for external acquisition through structured requirements and supporting decision context.</p>
+      </div>
+      <div className="min-w-0 bg-[#081120] border border-white/10 rounded-2xl p-4 text-center">
+        <p className="text-cyan-400 text-sm mb-3">HYBRID DELIVERY</p>
+        <p className="text-sm text-gray-400 leading-relaxed">The organization combines internal capabilities with acquisition requirements.</p>
+      </div>
+    </div>
+
+    {/* PATHWAYS CONVERGE INTO THE PRIMARY SID OUTPUT */}
+    <div aria-hidden="true" className="hidden lg:grid grid-cols-3 gap-4">
+      <div className="h-6 w-px bg-white/20 justify-self-center"></div>
+      <div className="h-6 w-px bg-white/20 justify-self-center"></div>
+      <div className="h-6 w-px bg-white/20 justify-self-center"></div>
+    </div>
+    <div aria-hidden="true" className="hidden lg:block h-px mx-[calc((100%-2rem)/6)] bg-white/20"></div>
+    <div aria-hidden="true" className="h-8 w-px bg-white/20 mx-auto"></div>
+
+    <div className="max-w-3xl mx-auto bg-[#081120] border border-white/20 rounded-3xl p-6 sm:p-8 text-center">
+      <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">DECISION PACKAGE</p>
+      <p className="text-sm text-gray-400 leading-relaxed">
+        A clear, evidence-backed record of what was decided, why, and what is needed to move forward.
+      </p>
+    </div>
+
+    <div aria-hidden="true" className="h-8 w-px bg-white/20 mx-auto"></div>
+
+    <div className="max-w-3xl mx-auto text-center border-t border-white/20 pt-6">
+      <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">ORGANIZATIONAL HANDOFF</p>
+      <p className="text-sm text-gray-400 leading-relaxed">
+        SID delivers the decision-ready initiative to the organization for implementation.
+      </p>
+      <aside aria-label="Decision Products & Artifacts" className="w-full max-w-2xl mx-auto mt-6 bg-[#081120] border border-white/10 rounded-2xl p-4 text-center">
+        <h3 className="text-xs uppercase tracking-[0.2em] text-cyan-400 mb-3">DECISION PRODUCTS &amp; ARTIFACTS</h3>
+        <ul className="grid grid-cols-1 sm:grid-cols-3 gap-x-4 gap-y-2 text-xs text-gray-400 leading-relaxed">
+          <li>Opportunity Assessment</li>
+          <li>Opportunity Brief</li>
+          <li>Course of Action &amp; Intervention</li>
+          <li>Validation Package</li>
+          <li>Validation Findings</li>
+          <li>Delivery Path Determination</li>
+          <li>Requirements Development Package</li>
+          <li className="text-cyan-300 font-medium">SID Decision Package</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+
+  {/* SUPPORTING SERVICES, SEPARATE FROM THE SID LIFECYCLE */}
+  <section aria-label="Additional Services Offered Through SID" className="mt-10 bg-[#081120] border border-white/10 rounded-3xl p-4 sm:p-6">
+    <h3 className="text-cyan-400 uppercase tracking-[0.2em] text-sm text-center mb-6">ADDITIONAL SERVICES OFFERED THROUGH SID</h3>
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-center font-bold">
+      <div className="min-w-0 border border-white/10 rounded-2xl p-4 text-sm text-gray-300 leading-relaxed">Evaluate Current Initiatives</div>
+      <div className="min-w-0 border border-white/10 rounded-2xl p-4 text-sm text-gray-300 leading-relaxed">Portfolio Review</div>
+      <div className="min-w-0 border border-white/10 rounded-2xl p-4 text-sm text-gray-300 leading-relaxed">Strategic Planning Decision Support</div>
+      <div className="min-w-0 border border-white/10 rounded-2xl p-4 text-sm text-gray-300 leading-relaxed">Independent Challenge / Red-Team Review</div>
+      <div className="min-w-0 border border-white/10 rounded-2xl p-4 text-sm text-gray-300 leading-relaxed">Acquisition Readiness Assessment</div>
+    </div>
+  </section>
+
     </div>
 </div>
 
@@ -758,7 +742,7 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
             <p className="text-gray-400 leading-relaxed mt-4">
               Founder Ken Anderson has more than 20 years of experience leading enterprise transformation, governance, operational modernization, and high-consequence initiatives supporting national-scale missions. Throughout his career, Ken observed organizations repeatedly commit significant resources to initiatives that lacked the strategic readiness to succeed.
 
-              He made it his mission to build a system that mitigates risk through structured decision discipline applied to initiative formation, evaluation, and execution.
+              He made it his mission to build a system that mitigates risk through structured decision discipline applied to initiative formation, evaluation, and decision readiness.
 
               The result is the SID System.{" "}
             
@@ -1065,4 +1049,3 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
     </div>
   )
 }
-
