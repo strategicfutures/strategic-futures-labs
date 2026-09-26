@@ -25,7 +25,7 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
       </nav>
 
       {/* HERO */}
-      <section className="max-w-5xl mx-auto text-center">
+      <section className="max-w-5xl mx-auto text-center pb-12">
         
         <div>
           <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-10 mt-6">
@@ -42,9 +42,9 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
           </h1>
 
           <p className="text-xl text-gray-400 leading-relaxed mb-10 max-w-3xl mx-auto text-center">
-            Strategic Futures Labs builds intelligent decision systems that help organizations form, evaluate, and govern strategic initiatives{" "}
+            Strategic Futures Labs builds intelligent decision systems that help organizations form, evaluate, and apply decision-enabling governance{" "}
             <span className="font-semibold text-white">before</span>{" "}
-            commitment.
+            committing to strategic initiatives.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -63,82 +63,10 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
           </div>
         </div>
 
-{/* DECISION QUALITY SECTION */}
-<div className="bg-[#081120] border border-white/20 rounded-3xl p-10 mt-20">
-
-  <div className="text-center mb-12">
-
-    <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">
-      Why an Intelligent Structure Matters
-    </p>
-
-    <h2 className="text-3xl lg:text-4xl font-semibold leading-tight">
-      Weak initiatives create costly downstream consequences.
-    </h2>
-
-  </div>
-
-  <div className="grid md:grid-cols-3 gap-6">
-
-            {/* CARD 1 */}
-            <div className="bg-[#0E1726] border border-amber-500/20 rounded-3xl p-8">
-
-              <p className="text-5xl font-semibold text-cyan-400 mb-4">
-                70%
-              </p>
-
-              <p className="text-lg text-white leading-relaxed">
-                of strategic initiatives fail to achieve intended outcomes or expected value.
-              </p>
-
-              <p className="text-sm text-gray-500 mt-4">
-                Source: McKinsey & Company
-              </p>
-
-            </div>
-
-            {/* CARD 2 */}
-            <div className="bg-[#0E1726] border border-amber-500/20 rounded-3xl p-8">
-
-              <p className="text-5xl font-semibold text-cyan-400 mb-4">
-                $2T
-              </p>
-
-              <p className="text-lg text-white leading-relaxed">
-                estimated annual cost of failed transformation efforts globally.
-              </p>
-
-              <p className="text-sm text-gray-500 mt-4">
-                Source: Forbes / McKinsey synthesis
-              </p>
-
-            </div>
-
-            {/* CARD 3 */}
-            <div className="bg-[#0E1726] border border-amber-500/20 rounded-3xl p-8">
-
-              <p className="text-5xl font-semibold text-cyan-400 mb-4">
-                43%
-              </p>
-
-              <p className="text-lg text-white leading-relaxed">
-                of transformation leaders identified weak problem definition as the most common point of initiative breakdown.
-              </p>
-
-              <p className="text-sm text-gray-500 mt-4">
-                Source: Strategic Futures Initiative Poll
-              </p>
-
-            </div>
-
-          </div>
-
-        </div>
-
       </section>
 {/* PROBLEM SECTION */}
 <section id="problem" className="border-t border-white/10 bg-[#081120]">
-  <div className="max-w-7xl mx-auto px-8 py-24">
+  <div className="max-w-7xl mx-auto px-8 pt-24 pb-12">
     
     <div className="max-w-3xl mb-16">
       <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">
@@ -155,7 +83,7 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
       </p>
       
       <p className="text-lg text-gray-400 leading-relaxed mt-4">
-        Once weak initiatives gain momentum, they become increasingly difficult to stop.     
+        <span className="font-semibold text-white">Once weak initiatives gain momentum, they become increasingly difficult to stop.</span>{" "}
       </p>
     </div>
 
@@ -186,98 +114,51 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
       </div>
 
     </div>
+
+    <div className="mt-6 border-t border-white/10 pt-4">
+      <p className="text-cyan-400 text-sm font-medium mb-3">Downstream Consequences:</p>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-4">
+        <div>
+          <p className="text-cyan-400 text-3xl font-semibold mb-1">70%</p>
+          <p className="text-sm text-gray-400 leading-relaxed">of strategic initiatives fail to achieve intended outcomes or expected value.</p>
+          <p className="text-xs text-gray-500 mt-1">Source: McKinsey &amp; Company</p>
+        </div>
+        <div>
+          <p className="text-cyan-400 text-3xl font-semibold mb-1">$2T</p>
+          <p className="text-sm text-gray-400 leading-relaxed">estimated annual cost of failed transformation efforts globally.</p>
+          <p className="text-xs text-gray-500 mt-1">Source: Forbes / McKinsey synthesis</p>
+        </div>
+        <div>
+          <p className="text-cyan-400 text-3xl font-semibold mb-1">43%</p>
+          <p className="text-sm text-gray-400 leading-relaxed">of transformation leaders identified weak problem definition as the most common point of initiative breakdown.</p>
+          <p className="text-xs text-gray-500 mt-1">Source: Strategic Futures Initiative Poll</p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 {/* SID System SECTION */}
 <section id="SID system" className="border-t border-white/10 bg-[#081120]">
-  <div className="max-w-7xl mx-auto px-8 py-24">
+  <div className="max-w-7xl mx-auto px-8 pt-24 pb-12">
 
-    <div className="max-w-3xl mb-16">
-      <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">
-        Introducing The SID System
-      </p>
-
+    <div className="max-w-3xl">
+      <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">INTRODUCING THE SID SYSTEM</p>
       <h2 className="text-4xl lg:text-5xl font-semibold leading-tight mb-6">
         Intelligent evaluation at the point of greatest impact.
       </h2>
-
-      <p className="text-lg text-gray-400 leading-relaxed">
-        The Strategic Initiative Decision (SID) System brings consistency, evidence, and analytical rigor to the evaluation of strategic initiatives before
-        organizations commit substantial time, capital, workforce capacity,
-        and operational focus.
+      <p className="text-xl text-gray-300 leading-relaxed">
+        Not every problem deserves your attention. But when it does, you need to know: Should we solve it? And if so, how?
+      </p>
+      <p className="text-lg text-gray-400 leading-relaxed mt-4">
+        The Strategic Initiative Decision (SID) System helps organizations decide by bringing consistency, evidence, and analytical rigor to the evaluation of strategic initiatives before substantial time, capital, workforce capacity, and operational focus are committed.
       </p>
     </div>
 
-    <div className="grid lg:grid-cols-2 gap-8">
-
-      <div className="bg-[#081120] border border-white/20 rounded-3xl p-8">
-        <p className="text-cyan-400 text-sm uppercase tracking-[0.2em] mb-4">
-          What The SID System Does
-        </p>
-
-        <ul className="space-y-4 text-gray-300 leading-relaxed">
-          <li>
-            • Transforms loosely defined ideas into structured,
-            decision-ready initiatives
-          </li>
-
-          <li>
-            • Applies evidence-based evaluation before execution
-          </li>
-
-          <li>
-            • Integrates AI-assisted analysis with human governance
-          </li>
-
-          <li>
-            • Supports disciplined initiative advancement through
-            structured decision gates
-          </li>
-
-          <li>
-            • Prepares validated initiatives for internal delivery, acquisition planning, or hybrid execution pathways
-          </li>
-
-          <li>
-            • Improves strategic clarity, readiness, and decision confidence
-          </li>
-        </ul>
-      </div>
-
-      <div className="bg-[#081120] border border-white/20 rounded-3xl p-8">
-        <p className="text-cyan-400 text-sm uppercase tracking-[0.2em] mb-4">
-          What The SID System Is Not
-        </p>
-
-        <ul className="space-y-4 text-gray-300 leading-relaxed">
-          <li>
-            • Not a project management platform
-          </li>
-
-          <li>
-            • Not an idea submission portal
-          </li>
-
-          <li>
-            • Not a task management system
-          </li>
-
-          <li>
-            • Not focused on low-consequence operational activities
-          </li>
-
-          <li>
-            • Not designed to replace human decision-making
-          </li>
-        </ul>
-      </div>
-
-    </div>
   </div>
 </section>
 {/* HOW The SID System WORKS */}
-<section id="workflow" className="border-t border-white/10 bg-[#081120]">
-  <div className="max-w-7xl mx-auto px-8 py-24">
+<section id="workflow" className="bg-[#081120]">
+  <div className="max-w-7xl mx-auto px-8 pt-12 pb-24">
 
     <div className="max-w-3xl mb-20">
       <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">HOW IT WORKS</p>
@@ -285,12 +166,12 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
         From idea to a decision-ready path forward.
       </h2>
       <p className="text-lg text-gray-400 leading-relaxed">
-        SID starts with a Big Idea. It guides strategic initiatives through a structured progression of Discover, Explore, and Develop using AI-assisted analysis, evidence, human judgment and governance, and decision gates at each stage.
+        SID starts with a Big Idea and guides it through a structured progression of Discover, Explore, and Develop, combining AI-assisted analysis, evidence, human judgment, and decision-enabling governance at each stage.
       </p>
       <p className="text-lg text-gray-400 leading-relaxed mt-4">
-        Decision gate scoring determines if the initiative should{" "}
+        Decision gates determine whether the initiative should{" "}
         <span className="text-green-400">Advance</span> (Proceed with Confidence), be{" "}
-        <span className="text-yellow-400">Refined</span> (Improve before Advancing) or{" "}
+        <span className="text-yellow-400">Refined</span> (Improve before Advancing), or{" "}
         <span className="text-red-400">Fail Fast</span> (Avoid Costly Misalignment).
       </p>
 
@@ -465,131 +346,72 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
   </section>
 
     </div>
+
+    <div className="grid lg:grid-cols-2 gap-8 mt-16">
+
+      <div className="bg-[#081120] border border-white/20 rounded-3xl p-8">
+        <p className="text-cyan-400 text-sm uppercase tracking-[0.2em] mb-4">
+          WHAT THE SID SYSTEM DOES
+        </p>
+
+        <ul className="space-y-4 text-gray-300 leading-relaxed">
+          <li>
+            • Structures big ideas into decision-ready initiatives
+          </li>
+
+          <li>
+            • Applies evidence-based evaluation and decision-enabling governance
+          </li>
+
+          <li>
+            • Integrates AI-assisted analysis with human judgment
+          </li>
+
+          <li>
+            • Evaluates initiatives using data-informed decision gates
+          </li>
+
+          <li>
+            • Determines appropriate path for delivery (internal, acquisition, hybrid)
+          </li>
+
+          <li>
+            • Improves strategic clarity, readiness, and decision confidence
+          </li>
+        </ul>
+      </div>
+
+      <div className="bg-[#081120] border border-white/20 rounded-3xl p-8">
+        <p className="text-cyan-400 text-sm uppercase tracking-[0.2em] mb-4">
+          WHAT THE SID SYSTEM IS NOT
+        </p>
+
+        <ul className="space-y-4 text-gray-300 leading-relaxed">
+          <li>
+            • Not a project management platform
+          </li>
+
+          <li>
+            • Not an idea submission portal
+          </li>
+
+          <li>
+            • Not a task management system
+          </li>
+
+          <li>
+            • Not focused on low-consequence operational activities
+          </li>
+
+          <li>
+            • Not designed to replace human decision-making
+          </li>
+        </ul>
+      </div>
+
+    </div>
 </div>
 
-</section>
-{/* CASE STUDY SECTION */}
-<section className="border-t border-white/10 bg-[#05070B]">
-  <div className="max-w-7xl mx-auto px-8 py-24">
-
-    <div className="text-center mb-16">
-      <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">
-        Strategic Risk Case Studies
-      </p>
-
-      <h2 className="text-3xl lg:text-4xl font-semibold leading-tight max-w-4xl mx-auto">
-        A system designed to help prevent high-stakes failures.
-      </h2>
-
-    </div>
-
-    <div className="grid lg:grid-cols-2 gap-8">
-
-      {/* CARD 1 */}
-      <div className="bg-[#081120] border border-white/10 rounded-3xl p-10">
-
-        <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-6">
-          Case Study: Hertz Transformation
-        </p>
-
-        <div className="space-y-8">
-
-          <div>
-            <h3 className="text-xl font-semibold mb-3">
-              What Happened
-            </h3>
-
-            <p className="text-gray-400 leading-relaxed">
-              Large-scale modernization efforts advanced amid operational,
-              governance, and implementation readiness challenges.
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-semibold mb-3">
-              What It Exposed
-            </h3>
-
-            <ul className="text-gray-400 space-y-2">
-              <li>• Organizational readiness gaps</li>
-              <li>• Operational continuity risk</li>
-              <li>• Execution sequencing concerns</li>
-              <li>• Governance and escalation limitations</li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-semibold mb-3">
-              What the SID System Is Designed to Evaluate
-            </h3>
-
-            <ul className="text-gray-400 space-y-2">
-              <li>• Transformation readiness</li>
-              <li>• Strategic alignment</li>
-              <li>• Operational risk exposure</li>
-              <li>• Stakeholder impact</li>
-              <li>• Decision confidence</li>
-            </ul>
-          </div>
-
-        </div>
-
-      </div>
-
-      {/* CARD 2 */}
-      <div className="bg-[#081120] border border-white/10 rounded-3xl p-10">
-
-        <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-6">
-          Case Study: CNN+ Launch
-        </p>
-
-        <div className="space-y-8">
-
-          <div>
-            <h3 className="text-xl font-semibold mb-3">
-              What Happened
-            </h3>
-
-            <p className="text-gray-400 leading-relaxed">
-              Significant investment proceeded despite broader uncertainty
-              around demand validation and long-term strategic viability.
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-semibold mb-3">
-              What It Exposed
-            </h3>
-
-            <ul className="text-gray-400 space-y-2">
-              <li>• Weak demand validation</li>
-              <li>• Strategic alignment concerns</li>
-              <li>• Market timing risk</li>
-              <li>• Investment readiness gaps</li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-semibold mb-3">
-              What the SID System Is Designed to Evaluate
-            </h3>
-
-            <ul className="text-gray-400 space-y-2">
-              <li>• Demand environment validation</li>
-              <li>• Strategic differentiation</li>
-              <li>• Stakeholder alignment</li>
-              <li>• Investment viability</li>
-              <li>• Expected value realization</li>
-            </ul>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
 </section>
 {/* WHO IT'S BUILT FOR */}
 <section id="customers" className="border-t border-white/10 bg-[#081120]">
