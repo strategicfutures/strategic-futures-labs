@@ -42,9 +42,7 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
           </h1>
 
           <p className="text-xl text-gray-400 leading-relaxed mb-10 max-w-3xl mx-auto text-center">
-            Strategic Futures Labs builds intelligent decision systems that help organizations form, evaluate, and apply decision-enabling governance{" "}
-            <span className="font-semibold text-white">before</span>{" "}
-            committing to strategic initiatives.
+            Strategic Futures Labs builds intelligent decision systems that help organizations avoid wasting time and money on initiatives that don't deliver.{" "}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -78,8 +76,7 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
       </h2>
 
       <p className="text-lg text-gray-400 leading-relaxed">
-        Most organizations have good systems in place to execute initiatives.
-        Far fewer have structured systems for determining which initiatives to execute—before time, capital, workforce capacity, and executive attention are committed.     
+        Organizations need a solution that can identify weak initiatives before committing time, capital, and human resources.     
       </p>
       
       <p className="text-lg text-gray-400 leading-relaxed mt-4">
@@ -144,13 +141,13 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
     <div className="max-w-3xl">
       <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">INTRODUCING THE SID SYSTEM</p>
       <h2 className="text-4xl lg:text-5xl font-semibold leading-tight mb-6">
-        Intelligent evaluation at the point of greatest impact.
+        Know before committing time and resources to strategic initiatives.
       </h2>
       <p className="text-xl text-gray-300 leading-relaxed">
-        Not every problem deserves your attention. But when it does, you need to know: Should we solve it? And if so, how?
+        Early, intelligent evaluation better informs the executive decision to commit or not.
       </p>
       <p className="text-lg text-gray-400 leading-relaxed mt-4">
-        The Strategic Initiative Decision (SID) System helps organizations decide by bringing consistency, evidence, and analytical rigor to the evaluation of strategic initiatives before substantial time, capital, workforce capacity, and operational focus are committed.
+        The Strategic Initiative Decision (SID) System builds decision quality and confidence by bringing consistency, evidence, and analytical rigor to the evaluation of strategic initiatives.
       </p>
     </div>
 
@@ -161,15 +158,15 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
   <div className="max-w-7xl mx-auto px-8 pt-12 pb-24">
 
     <div className="max-w-3xl mb-20">
-      <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">HOW IT WORKS</p>
+      <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">HOW SID WORKS</p>
       <h2 className="text-4xl lg:text-5xl font-semibold leading-tight mb-6">
-        From idea to a decision-ready path forward.
+        From big idea to a decision-ready path forward.
       </h2>
       <p className="text-lg text-gray-400 leading-relaxed">
-        SID starts with a Big Idea and guides it through a structured progression of Discover, Explore, and Develop, combining AI-assisted analysis, evidence, human judgment, and decision-enabling governance at each stage.
+        SID starts with a Big Idea and guides it through a structured progression, combining AI-assisted analysis, evidence, human judgment, and decision-enabling governance.
       </p>
       <p className="text-lg text-gray-400 leading-relaxed mt-4">
-        Decision gates determine whether the initiative should{" "}
+        During progression, decision gates determine whether the initiative should{" "}
         <span className="text-green-400">Advance</span> (Proceed with Confidence), be{" "}
         <span className="text-yellow-400">Refined</span> (Improve before Advancing), or{" "}
         <span className="text-red-400">Fail Fast</span> (Avoid Costly Misalignment).
@@ -262,7 +259,7 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
       </h3>
 
       <p className="text-gray-400 leading-relaxed text-sm">
-        Determine the approach, validate it when needed, and prepare the initiative for internal delivery, acquisition, or a hybrid path.
+        Determine the approach and prepare the initiative for delivery.
       </p>
     </div>
 
@@ -306,17 +303,14 @@ const briefingUrl = "https://gamma.app/docs/Executive-Summary-The-Strategic-Init
     <div className="max-w-3xl mx-auto bg-[#081120] border border-white/20 rounded-3xl p-6 sm:p-8 text-center">
       <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">DECISION PACKAGE</p>
       <p className="text-sm text-gray-400 leading-relaxed">
-        A clear, evidence-backed record of what was decided, why, and what is needed to move forward.
+        A clear, evidence-backed record of what was decided, why, and what is needed for execution.
       </p>
     </div>
 
     <div aria-hidden="true" className="h-8 w-px bg-white/20 mx-auto"></div>
 
     <div className="max-w-3xl mx-auto text-center border-t border-white/20 pt-6">
-      <p className="text-cyan-400 uppercase tracking-[0.2em] text-sm mb-4">ORGANIZATIONAL HANDOFF</p>
-      <p className="text-sm text-gray-400 leading-relaxed">
-        SID delivers the decision-ready initiative to the organization for implementation.
-      </p>
+      
       <aside aria-label="Decision Products & Artifacts" className="w-full max-w-2xl mx-auto mt-6 bg-[#081120] border border-white/10 rounded-2xl p-4 text-center">
         <h3 className="text-xs uppercase tracking-[0.2em] text-cyan-400 mb-3">DECISION PRODUCTS &amp; ARTIFACTS</h3>
         <ul className="grid grid-cols-1 sm:grid-cols-3 gap-x-4 gap-y-2 text-xs text-gray-400 leading-relaxed">
